@@ -14,6 +14,7 @@
 		FA3603A31C8FCDFC001D124F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3603A11C8FCDFC001D124F /* Main.storyboard */; };
 		FA3603A51C8FCDFC001D124F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3603A41C8FCDFC001D124F /* Assets.xcassets */; };
 		FA3603A81C8FCDFC001D124F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3603A61C8FCDFC001D124F /* LaunchScreen.storyboard */; };
+		FA3603D11C900116001D124F /* customer.html in Resources */ = {isa = PBXBuildFile; fileRef = FA3603D01C900116001D124F /* customer.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		FA3603A41C8FCDFC001D124F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3603A71C8FCDFC001D124F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3603A91C8FCDFC001D124F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3603B31C8FEB1E001D124F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FA3603D01C900116001D124F /* customer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = customer.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +78,10 @@
 			children = (
 				FA36039B1C8FCDFC001D124F /* AppDelegate.h */,
 				FA36039C1C8FCDFC001D124F /* AppDelegate.m */,
+				FA3603B31C8FEB1E001D124F /* PrefixHeader.pch */,
 				FA36039E1C8FCDFC001D124F /* ViewController.h */,
 				FA36039F1C8FCDFC001D124F /* ViewController.m */,
+				FA3603D21C900119001D124F /* Resource */,
 				FA3603A11C8FCDFC001D124F /* Main.storyboard */,
 				FA3603A41C8FCDFC001D124F /* Assets.xcassets */,
 				FA3603A61C8FCDFC001D124F /* LaunchScreen.storyboard */,
@@ -92,6 +97,14 @@
 				FA3603991C8FCDFC001D124F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA3603D21C900119001D124F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FA3603D01C900116001D124F /* customer.html */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		FDA392F644D9D61382C64FB0 /* Pods */ = {
@@ -165,6 +178,7 @@
 			files = (
 				FA3603A81C8FCDFC001D124F /* LaunchScreen.storyboard in Resources */,
 				FA3603A51C8FCDFC001D124F /* Assets.xcassets in Resources */,
+				FA3603D11C900116001D124F /* customer.html in Resources */,
 				FA3603A31C8FCDFC001D124F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +353,7 @@
 			baseConfigurationReference = AB1786CB382AA5F27A988167 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = iOS_Pod_CodeDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS_Pod_CodeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -352,6 +367,7 @@
 			baseConfigurationReference = B2ECDFD953A5171B8E63C988 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = iOS_Pod_CodeDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS_Pod_CodeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
