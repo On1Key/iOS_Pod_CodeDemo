@@ -5,8 +5,14 @@
 //  Created by mac book on 16/3/9.
 //  Copyright © 2016年 mac book. All rights reserved.
 //
+//
+//iOS开发之AFNetworking 3.0.4使用
+//http://www.jianshu.com/p/11bb0d4dc649
+//
+//
 
 #import "ViewController.h"
+#import <AFNetworking.h>
 
 @interface ViewController ()
 
@@ -16,12 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    
 }
 
 @end
