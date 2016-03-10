@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GRMustache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,6 +42,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>49E0CBDA08E5E5B22BBC4C68415FD183</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4B9B74B1D63B58F82B1AA0944343D037</key>
 		<dict>
 			<key>primary</key>
@@ -52,17 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AECA01C8EE90CB820719660FB732F669</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D812D3CB43669D1CDDB3704C51D78DDD</key>
+		<key>9F12FB4A63E20F601CFB2E64A65B57C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>E27EBF430C46ED42D12B9A6063120384</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F00BC5B6322005880A08D1F9F57640D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

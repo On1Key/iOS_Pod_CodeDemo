@@ -22,8 +22,7 @@
 
 
 @interface ViewController ()<UIWebViewDelegate>
-@property (nonatomic) int nummm;
-@property (nonatomic, strong) UIButton *bbbtttnnn;
+
 @end
 
 @implementation ViewController
@@ -53,6 +52,11 @@
  *  三种函数善加利用 就可以应对各种情况了
  */
 - (void)autoMasonryLayOutTest{
+    
+    
+//    头文件定义了一个MACRO,用法是这样的
+//    WS(weakSelf);
+//    weakSelf就是这个弱引用
     
     if (arc4random()%2 == 0) {
         [self scrollviewTest01];
