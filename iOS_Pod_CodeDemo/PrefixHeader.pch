@@ -12,7 +12,11 @@
 #import <AFNetworking.h>
 #import <GRMustache.h>
 #import <POP.h>
+#import <Masonry.h>
 
+
+//定义一个MACRO，用于blcok内部的弱引用
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
 //rgb颜色
 #define COLOR_RGB(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
