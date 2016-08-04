@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--ProHUD Controller-->
+        <scene sceneID="Tej-QC-tXK">
+            <objects>
+                <viewController storyboardIdentifier="MBProHUDController" id="dZP-PM-Vzg" customClass="MBProHUDController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Fy-ei-vMp"/>
+                        <viewControllerLayoutGuide type="bottom" id="nAe-4n-r7Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WBr-Ei-9fz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-uk-rkJ">
+                                <rect key="frame" x="204" y="131" width="193" height="39"/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="文本提示框"/>
+                                <connections>
+                                    <action selector="showTextDialog:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="HUO-lJ-tIv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aK1-bv-deQ">
+                                <rect key="frame" x="204" y="192" width="193" height="39"/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="进度提示框1"/>
+                                <connections>
+                                    <action selector="showProgressDialog:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="JEm-l5-dQM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Prf-gp-sMi">
+                                <rect key="frame" x="204" y="324" width="193" height="39"/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="自定义提示框"/>
+                                <connections>
+                                    <action selector="showCustomDialog:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="uhX-q6-yUD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sv-9N-tXw">
+                                <rect key="frame" x="204" y="390" width="193" height="39"/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="纯文本提示框"/>
+                                <connections>
+                                    <action selector="showAllTextDialog:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="xjV-Qy-psj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9e-HO-hjb">
+                                <rect key="frame" x="204" y="255" width="193" height="39"/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="进度提示框2"/>
+                                <connections>
+                                    <action selector="showProgressDialog2:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="fKA-EV-NX9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="b9e-HO-hjb" firstAttribute="top" secondItem="aK1-bv-deQ" secondAttribute="bottom" constant="20" id="Cxm-MV-8Oe"/>
+                            <constraint firstItem="aK1-bv-deQ" firstAttribute="leading" secondItem="WBr-Ei-9fz" secondAttribute="leadingMargin" constant="100" id="Dqi-iN-qYE"/>
+                            <constraint firstItem="8sv-9N-tXw" firstAttribute="leading" secondItem="WBr-Ei-9fz" secondAttribute="leadingMargin" constant="100" id="Fwn-IT-ZIH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="b9e-HO-hjb" secondAttribute="trailing" constant="100" id="Rp8-jg-k50"/>
+                            <constraint firstItem="aC1-uk-rkJ" firstAttribute="leading" secondItem="WBr-Ei-9fz" secondAttribute="leadingMargin" constant="100" id="Tzk-Ik-zgR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Prf-gp-sMi" secondAttribute="trailing" constant="100" id="Ukc-5N-rcf"/>
+                            <constraint firstItem="aK1-bv-deQ" firstAttribute="top" secondItem="aC1-uk-rkJ" secondAttribute="bottom" constant="20" id="bDU-R6-C2b"/>
+                            <constraint firstItem="b9e-HO-hjb" firstAttribute="leading" secondItem="WBr-Ei-9fz" secondAttribute="leadingMargin" constant="100" id="gt6-py-rfb"/>
+                            <constraint firstItem="8sv-9N-tXw" firstAttribute="top" secondItem="Prf-gp-sMi" secondAttribute="bottom" constant="20" id="pyU-s4-hHc"/>
+                            <constraint firstItem="Prf-gp-sMi" firstAttribute="leading" secondItem="WBr-Ei-9fz" secondAttribute="leadingMargin" constant="100" id="rIe-KX-1sg"/>
+                            <constraint firstItem="Prf-gp-sMi" firstAttribute="top" secondItem="b9e-HO-hjb" secondAttribute="bottom" constant="20" id="sTB-lD-sne"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aC1-uk-rkJ" secondAttribute="trailing" constant="100" id="scr-yh-mt3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8sv-9N-tXw" secondAttribute="trailing" constant="100" id="u1O-6v-dhU"/>
+                            <constraint firstItem="aC1-uk-rkJ" firstAttribute="top" secondItem="5Fy-ei-vMp" secondAttribute="bottom" constant="100" id="u8x-dR-utt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aK1-bv-deQ" secondAttribute="trailing" constant="100" id="wn4-6p-RQM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="" id="QNB-Sn-G0A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lvz-ld-I6l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="310"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OpG-1f-yrr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sjx-f6-oxc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Jk-J2-Ogc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dZP-PM-Vzg" kind="relationship" relationship="rootViewController" id="n7g-Fu-e1A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="esI-YB-4bu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="259" y="311"/>
+        </scene>
+    </scenes>
+</document>

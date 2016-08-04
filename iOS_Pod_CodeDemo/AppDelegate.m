@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTableController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    MainTableController *vc = [MainTableController new];
+    //此处可以适用一个CustomNaviViewController
+    _window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 
