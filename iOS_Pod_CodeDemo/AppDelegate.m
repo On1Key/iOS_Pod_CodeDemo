@@ -18,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //可写可不写，系统默认会有cache
+    NSURLCache *urlCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
+    [NSURLCache setSharedURLCache:urlCache];
+    
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     MainTableController *vc = [MainTableController new];
     //此处可以适用一个CustomNaviViewController

@@ -28,7 +28,7 @@
         _data = @[@"GRMustache",
                   @"POP",
                   @"Masonry",
-                  @"MJExtension",
+                  @"MJExtension+NSURLCache",
                   @"MBProHUD",
                   @"Xib_FDTLayCell"];
     }

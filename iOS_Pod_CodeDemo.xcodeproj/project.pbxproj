@@ -29,6 +29,8 @@
 		FAA88B0D1D34CFE70007ABDC /* MainTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA88B0C1D34CFE70007ABDC /* MainTableController.m */; };
 		FAA88B101D34D0DB0007ABDC /* GRMustacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA88B0F1D34D0DB0007ABDC /* GRMustacheController.m */; };
 		FAA88B131D34D2070007ABDC /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA88B121D34D2070007ABDC /* PopViewController.m */; };
+		FAD45EE81D6D4BF0003B037B /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD45EE51D6D4BF0003B037B /* NSArray+Log.m */; };
+		FAD45EE91D6D4BF0003B037B /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD45EE71D6D4BF0003B037B /* NSDictionary+Log.m */; };
 		FAE7EE171D35D67C0031E184 /* MBProHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7EE161D35D67C0031E184 /* MBProHUDController.m */; };
 		FAE7EE191D35D8CA0031E184 /* MBProHUDController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE7EE181D35D8CA0031E184 /* MBProHUDController.storyboard */; };
 		FAE7EE1C1D35DCDE0031E184 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7EE1B1D35DCDE0031E184 /* BaseViewController.m */; };
@@ -88,6 +90,10 @@
 		FAA88B0F1D34D0DB0007ABDC /* GRMustacheController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMustacheController.m; sourceTree = "<group>"; };
 		FAA88B111D34D2070007ABDC /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
 		FAA88B121D34D2070007ABDC /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		FAD45EE41D6D4BF0003B037B /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		FAD45EE51D6D4BF0003B037B /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		FAD45EE61D6D4BF0003B037B /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		FAD45EE71D6D4BF0003B037B /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 		FAE7EE151D35D67C0031E184 /* MBProHUDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProHUDController.h; sourceTree = "<group>"; };
 		FAE7EE161D35D67C0031E184 /* MBProHUDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProHUDController.m; sourceTree = "<group>"; };
 		FAE7EE181D35D8CA0031E184 /* MBProHUDController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MBProHUDController.storyboard; sourceTree = "<group>"; };
@@ -201,6 +207,7 @@
 				FAA88B0C1D34CFE70007ABDC /* MainTableController.m */,
 				FAE7EE1A1D35DCDE0031E184 /* BaseViewController.h */,
 				FAE7EE1B1D35DCDE0031E184 /* BaseViewController.m */,
+				FAD45EE31D6D4BE7003B037B /* Category */,
 				FAA88B141D34D8050007ABDC /* SubVCs */,
 				FA234BA41D34ECCB00A44E2F /* View */,
 				FA234BA61D34ECE300A44E2F /* Extent */,
@@ -266,6 +273,17 @@
 				FA234BAA1D34EEA200A44E2F /* MJEx */,
 			);
 			name = SubVCs;
+			sourceTree = "<group>";
+		};
+		FAD45EE31D6D4BE7003B037B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FAD45EE41D6D4BF0003B037B /* NSArray+Log.h */,
+				FAD45EE51D6D4BF0003B037B /* NSArray+Log.m */,
+				FAD45EE61D6D4BF0003B037B /* NSDictionary+Log.h */,
+				FAD45EE71D6D4BF0003B037B /* NSDictionary+Log.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		FAE7EE251D35E7460031E184 /* box */ = {
@@ -431,6 +449,7 @@
 				FAA3F2BB1D376CD5007DF465 /* XibModel.m in Sources */,
 				FA234BA31D34EC6100A44E2F /* MJExtensionController.m in Sources */,
 				FAE7EE1C1D35DCDE0031E184 /* BaseViewController.m in Sources */,
+				FAD45EE81D6D4BF0003B037B /* NSArray+Log.m in Sources */,
 				FAE7EE171D35D67C0031E184 /* MBProHUDController.m in Sources */,
 				FAA88B131D34D2070007ABDC /* PopViewController.m in Sources */,
 				FA3603A01C8FCDFC001D124F /* ViewController.m in Sources */,
@@ -439,6 +458,7 @@
 				FAA88B0D1D34CFE70007ABDC /* MainTableController.m in Sources */,
 				FAA3F2B51D376CD5007DF465 /* XibViewController.m in Sources */,
 				FA36039D1C8FCDFC001D124F /* AppDelegate.m in Sources */,
+				FAD45EE91D6D4BF0003B037B /* NSDictionary+Log.m in Sources */,
 				FAA3F2B71D376CD5007DF465 /* XibFrameCell.m in Sources */,
 				FA36039A1C8FCDFC001D124F /* main.m in Sources */,
 				FAA3F2BE1D376D24007DF465 /* UIView+Extension.m in Sources */,

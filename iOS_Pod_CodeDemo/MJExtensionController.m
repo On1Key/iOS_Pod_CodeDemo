@@ -24,13 +24,27 @@
 }
 /// 请求数据并创建模型数组
 - (void)requestAndParseModels{
-    [BaseNetManager GET:@"http://www.ehaohugong.com/api/v2/caregiver/detail?access-token=Fuf87lKbh9ya8CoCAD_ZWANNGJORo424&app_id=5555555555" parameters:@{@"caregiver_id":@"100000001"} complationHandle:^(id responseObject, NSError *error) {
+    NSString *getPath = @"http://www.ehaohugong.com/api/v2/caregiver/detail?access-token=Fuf87lKbh9ya8CoCAD_ZWANNGJORo424&app_id=5555555555";
+    
+    NSURLSessionDataTask *dataTask = [BaseNetManager GET:getPath parameters:@{@"caregiver_id":@"100000001"} complationHandle:^(id responseObject, NSError *error) {
         self.dataArr = [ServiceModel parseServiceModel:responseObject];
         
-        //反转，并保存
+        //反转，并保存，自己手动写入缓存
         [self changeModelsToDicArrWriteToPlistFile];
         NSLog(@"%@",self.dataArr);
+        
+        
     }];
+    
+    //系统缓存
+    NSURLCache *urlCache = [NSURLCache sharedURLCache];
+    NSCachedURLResponse *res = [urlCache cachedResponseForRequest:dataTask.currentRequest];
+    if (res!=nil) {
+        id resRes = [NSJSONSerialization JSONObjectWithData:res.data options:NSJSONReadingMutableLeaves error:nil];
+        NSLog(@"\n|---system cache---|----->>>>\n\n|---url---|\n%@\n\n|---res---|\n%@",dataTask.currentRequest.URL,resRes);
+    }else{
+        NSLog(@"cache=====nil");
+    }
 }
 /// 将模型数组解析为json数据，并写入本地文件
 - (void)changeModelsToDicArrWriteToPlistFile{
@@ -40,7 +54,6 @@
     NSArray *arr = [XibModel mj_keyValuesArrayWithObjectArray:self.dataArr];
     [arr writeToFile:filename atomically:YES];
     
-    NSLog(@"===\n%@\n========\n",filename);
 }
 
 @end

@@ -32,6 +32,8 @@
     
 //    layout布局集成
     [self autoMasonryLayOutTest];
+    
+    
 }
 #pragma mark - Masonry框架，layout布局集成
 /**
