@@ -42,4 +42,7 @@
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
+#define CACHE_MEMORY_MAX (4 * 1024 * 1024)
+#define CACHE_DISK_MAX (20 * 1024 * 1024)
+
 #endif /* PrefixHeader_pch */

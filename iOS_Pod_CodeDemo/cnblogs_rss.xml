@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text">博客园_首页</title>
+    <subtitle type="text">代码改变世界</subtitle>
+    <id>uuid:26d71902-7e30-4208-8886-f3442d1d8d2a;id=2403</id>
+    <updated>2016-09-18T05:07:53Z</updated>
+    <generator>feed.cnblogs.com</generator>
+    <entry>
+        <id>http://www.cnblogs.com/sammyliu/p/5878973.html</id>
+        <title type="text">理解Docker（3）：Docker 容器使用 Linux namespace 进行运行环境隔离 - SammyLiu</title>
+        <summary type="text">本系列文章将介绍Docker的有关知识： （1）Docker 安装及基本用法 （2）Docker 镜像 （3）Docker 容器的隔离性 - 使用 namespace 进行环境隔离 （4）Docker 容器的隔离性 - 使用 cgroups 进行资源隔离 （4）Docker 容器的网络 （5）Doc</summary>
+        <published>2016-09-18T04:15:00Z</published>
+        <updated>2016-09-18T04:15:00Z</updated>
+        <author>
+            <name>SammyLiu</name>
+            <uri>http://www.cnblogs.com/sammyliu/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/sammyliu/p/5878973.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/sammyliu/p/5878973.html" />
+        <content type="html">【摘要】本系列文章将介绍Docker的有关知识： （1）Docker 安装及基本用法 （2）Docker 镜像 （3）Docker 容器的隔离性 - 使用 namespace 进行环境隔离 （4）Docker 容器的隔离性 - 使用 cgroups 进行资源隔离 （4）Docker 容器的网络 （5）Doc &lt;a href="http://www.cnblogs.com/sammyliu/p/5878973.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/pokid/p/5881078.html</id>
+        <title type="text">解决用户注销后点击浏览器返回刷新页面重复登录的问题 - pokid</title>
+        <summary type="text">最近在写一个购书网站，测试注销功能时点击浏览器返回刷新浏览器，会发现原本已经注销的用户又重新登录了 想了很久在网上也找了很多办法，不过网上给出的办法大多是用js实现注销后禁止用户点击游览器返回 这个办法虽然可行，但并不是在后台真正的解决这个问题，有一种防君子不防小人的感觉 下面把自己实现的方法记录下</summary>
+        <published>2016-09-18T03:56:00Z</published>
+        <updated>2016-09-18T03:56:00Z</updated>
+        <author>
+            <name>pokid</name>
+            <uri>http://www.cnblogs.com/pokid/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/pokid/p/5881078.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/pokid/p/5881078.html" />
+        <content type="html">【摘要】最近在写一个购书网站，测试注销功能时点击浏览器返回刷新浏览器，会发现原本已经注销的用户又重新登录了 想了很久在网上也找了很多办法，不过网上给出的办法大多是用js实现注销后禁止用户点击游览器返回 这个办法虽然可行，但并不是在后台真正的解决这个问题，有一种防君子不防小人的感觉 下面把自己实现的方法记录下 &lt;a href="http://www.cnblogs.com/pokid/p/5881078.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/jukaiit/p/5881062.html</id>
+        <title type="text">iOS开发 如何适配iOS10 - 鸿鹄当高远</title>
+        <summary type="text">2016年9月7日，苹果发布iOS 10。2016年9月14日，全新的操作系统iOS 10将正式上线。 作为开发者，如何适配iOS10呢？ 1.Notification(通知) 自从Notification被引入之后，苹果就不断的更新优化，但这些更新优化只是小打小闹，直至现在iOS 10开始真正的进</summary>
+        <published>2016-09-18T03:53:00Z</published>
+        <updated>2016-09-18T03:53:00Z</updated>
+        <author>
+            <name>鸿鹄当高远</name>
+            <uri>http://www.cnblogs.com/jukaiit/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/jukaiit/p/5881062.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jukaiit/p/5881062.html" />
+        <content type="html">【摘要】2016年9月7日，苹果发布iOS 10。2016年9月14日，全新的操作系统iOS 10将正式上线。 作为开发者，如何适配iOS10呢？ 1.Notification(通知) 自从Notification被引入之后，苹果就不断的更新优化，但这些更新优化只是小打小闹，直至现在iOS 10开始真正的进 &lt;a href="http://www.cnblogs.com/jukaiit/p/5881062.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/imwtr/p/5881039.html</id>
+        <title type="text">移动前端页面与Chrome的远程真机调试 - imwtr</title>
+        <summary type="text">一年不见，博客园都长草啦...... 前几日刚入手新手机小米5，系统真心流畅呀。为啥要买小米5呢，因为要提高生产力呀，好好玩移动前端开发呀哈哈哈 那么问题来了，要怎么调试手机上的前端页面呢？ 很久很久以前，我的做法是：在PC上用Chrome移动模拟器调试好后，基本OK，再把相关文件传到手机上，在真机</summary>
+        <published>2016-09-18T03:46:00Z</published>
+        <updated>2016-09-18T03:46:00Z</updated>
+        <author>
+            <name>imwtr</name>
+            <uri>http://www.cnblogs.com/imwtr/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/imwtr/p/5881039.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/imwtr/p/5881039.html" />
+        <content type="html">【摘要】一年不见，博客园都长草啦...... 前几日刚入手新手机小米5，系统真心流畅呀。为啥要买小米5呢，因为要提高生产力呀，好好玩移动前端开发呀哈哈哈 那么问题来了，要怎么调试手机上的前端页面呢？ 很久很久以前，我的做法是：在PC上用Chrome移动模拟器调试好后，基本OK，再把相关文件传到手机上，在真机 &lt;a href="http://www.cnblogs.com/imwtr/p/5881039.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/JeffController/p/5875563.html</id>
+        <title type="text">微信公众账号开发之N个坑（一） - _Vegetables</title>
+        <summary type="text">我这人干活没有前奏，喜欢直接开始。完了，宝宝已经被你们带污了。。 微信公众账号开发文档，官方版（https://mp.weixin.qq.com/wiki），相信我，我已经无力吐槽写这个文档的人了，我真心想杂碎这个键盘，但是下手之后才发现，原来键盘是我自己花钱买的。。。。尴尬了。 废话不说，直接说怎</summary>
+        <published>2016-09-18T01:48:00Z</published>
+        <updated>2016-09-18T01:48:00Z</updated>
+        <author>
+            <name>_Vegetables</name>
+            <uri>http://www.cnblogs.com/JeffController/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/JeffController/p/5875563.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/JeffController/p/5875563.html" />
+        <content type="html">【摘要】我这人干活没有前奏，喜欢直接开始。完了，宝宝已经被你们带污了。。 微信公众账号开发文档，官方版（https://mp.weixin.qq.com/wiki），相信我，我已经无力吐槽写这个文档的人了，我真心想杂碎这个键盘，但是下手之后才发现，原来键盘是我自己花钱买的。。。。尴尬了。 废话不说，直接说怎 &lt;a href="http://www.cnblogs.com/JeffController/p/5875563.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/xhb-bky-blog/p/5866675.html</id>
+        <title type="text">【总结】富有表现力的JavaScript - 悠扬的牧笛</title>
+        <summary type="text">1、JavaScript的灵活性 JavaScript是目前最流行、应用最广泛的语言之一，它是一种极富表现力的语言，它具有C家族语言所罕见的特性。这种语言允许我们使用各种方式来完成同一个任务或者功能，还允许我们在面向对象编程的过程使用函数式编程中的概念来丰富其实现方式。这种语言允许我们采用多种不同的</summary>
+        <published>2016-09-18T01:42:00Z</published>
+        <updated>2016-09-18T01:42:00Z</updated>
+        <author>
+            <name>悠扬的牧笛</name>
+            <uri>http://www.cnblogs.com/xhb-bky-blog/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/xhb-bky-blog/p/5866675.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xhb-bky-blog/p/5866675.html" />
+        <content type="html">【摘要】1、JavaScript的灵活性 JavaScript是目前最流行、应用最广泛的语言之一，它是一种极富表现力的语言，它具有C家族语言所罕见的特性。这种语言允许我们使用各种方式来完成同一个任务或者功能，还允许我们在面向对象编程的过程使用函数式编程中的概念来丰富其实现方式。这种语言允许我们采用多种不同的 &lt;a href="http://www.cnblogs.com/xhb-bky-blog/p/5866675.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/liufanping/p/5879822.html</id>
+        <title type="text">【开源】一个基于智能问答的聊天机器人实现 - Iveely Liu</title>
+        <summary type="text">智能问答应当是未来智能化发展中人机交互的主要方式，目前无论是在开源社区或者企业应用中，都有广泛的应用。 项目名称是Iveely.Brain，本次源码可以在Github的这里下载，,是主要用于聊天服务的一个项目，本次开源版本的示例如下所示： 整个开源版本分为两种模式：本地模式和远程模式。本地模式是开发</summary>
+        <published>2016-09-18T01:33:00Z</published>
+        <updated>2016-09-18T01:33:00Z</updated>
+        <author>
+            <name>Iveely Liu</name>
+            <uri>http://www.cnblogs.com/liufanping/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/liufanping/p/5879822.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liufanping/p/5879822.html" />
+        <content type="html">【摘要】智能问答应当是未来智能化发展中人机交互的主要方式，目前无论是在开源社区或者企业应用中，都有广泛的应用。 项目名称是Iveely.Brain，本次源码可以在Github的这里下载，,是主要用于聊天服务的一个项目，本次开源版本的示例如下所示： 整个开源版本分为两种模式：本地模式和远程模式。本地模式是开发 &lt;a href="http://www.cnblogs.com/liufanping/p/5879822.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/liqingwen/p/5868688.html</id>
+        <title type="text">[C#] 只是想简单说下表达式树 - Expression Trees - 反骨仔</title>
+        <summary type="text">只是想简单说下表达式树 - Expression Trees 目录 简介 Lambda 表达式创建表达式树 API 创建表达式树 解析表达式树 表达式树的永久性 编译表达式树 执行表达式树 修改表达式树 调试 简介 表达式树以树形数据结构表示代码，其中每一个节点都是一种表达式，比如方法调用和 x &lt;</summary>
+        <published>2016-09-18T01:31:00Z</published>
+        <updated>2016-09-18T01:31:00Z</updated>
+        <author>
+            <name>反骨仔</name>
+            <uri>http://www.cnblogs.com/liqingwen/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/liqingwen/p/5868688.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liqingwen/p/5868688.html" />
+        <content type="html">【摘要】只是想简单说下表达式树 - Expression Trees 目录 简介 Lambda 表达式创建表达式树 API 创建表达式树 解析表达式树 表达式树的永久性 编译表达式树 执行表达式树 修改表达式树 调试 简介 表达式树以树形数据结构表示代码，其中每一个节点都是一种表达式，比如方法调用和 x &lt; &lt;a href="http://www.cnblogs.com/liqingwen/p/5868688.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/ludashi/p/5725743.html</id>
+        <title type="text">iOS逆向工程之给App脱壳 - 青玉伏案</title>
+        <summary type="text">本篇博客以微信为例，给微信脱壳。"砸壳"在iOS逆向工程中是经常做的一件事情，，因为从AppStore直接下载安装的App是加壳的，其实就是经过加密的，这个“砸壳”的过程就是一个解密的过程。未砸壳的App是无法在Class-dump、Hopper等工具中使用的。所以我们要将App进行砸壳处理。在An</summary>
+        <published>2016-09-18T01:29:00Z</published>
+        <updated>2016-09-18T01:29:00Z</updated>
+        <author>
+            <name>青玉伏案</name>
+            <uri>http://www.cnblogs.com/ludashi/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/ludashi/p/5725743.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/ludashi/p/5725743.html" />
+        <content type="html">【摘要】本篇博客以微信为例，给微信脱壳。"砸壳"在iOS逆向工程中是经常做的一件事情，，因为从AppStore直接下载安装的App是加壳的，其实就是经过加密的，这个“砸壳”的过程就是一个解密的过程。未砸壳的App是无法在Class-dump、Hopper等工具中使用的。所以我们要将App进行砸壳处理。在An &lt;a href="http://www.cnblogs.com/ludashi/p/5725743.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/jRoger/p/aspnet-core-deploy-to-docker.html</id>
+        <title type="text">.NET Core Web 应用部署到 Docker 中运行 - JRoger</title>
+        <summary type="text">环境介绍 ： 虚拟机：VirtualBox 5.1.6 系统：Ubuntu 16.04.1 LTS 系统准备完成后可以使用 sudo apt-get udpate 和 sudo apt-get upgrade 对系统进行更新，然后打开 https://www.microsoft.com/net/c</summary>
+        <published>2016-09-18T01:19:00Z</published>
+        <updated>2016-09-18T01:19:00Z</updated>
+        <author>
+            <name>JRoger</name>
+            <uri>http://www.cnblogs.com/jRoger/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/jRoger/p/aspnet-core-deploy-to-docker.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jRoger/p/aspnet-core-deploy-to-docker.html" />
+        <content type="html">【摘要】环境介绍 ： 虚拟机：VirtualBox 5.1.6 系统：Ubuntu 16.04.1 LTS 系统准备完成后可以使用 sudo apt-get udpate 和 sudo apt-get upgrade 对系统进行更新，然后打开 https://www.microsoft.com/net/c &lt;a href="http://www.cnblogs.com/jRoger/p/aspnet-core-deploy-to-docker.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/stoneniqiu/p/5880116.html</id>
+        <title type="text">轻量级的日期插件--datebox - stoneniqiu</title>
+        <summary type="text">jquery的日期插件有好几款，H5中的input也可以自带日期选择。但为什么要再写一个，有两个理由，一个是引用的文件太大，而有时候只需要很简单的功能，二个是想加一些自定义的效果不好改。 我写的这个功能比较简单，可以换月，有预约效果，可以设定预约日期范围，压缩后1.4kb，先上个图，再慢慢解释： j</summary>
+        <published>2016-09-18T01:04:00Z</published>
+        <updated>2016-09-18T01:04:00Z</updated>
+        <author>
+            <name>stoneniqiu</name>
+            <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5880116.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5880116.html" />
+        <content type="html">【摘要】jquery的日期插件有好几款，H5中的input也可以自带日期选择。但为什么要再写一个，有两个理由，一个是引用的文件太大，而有时候只需要很简单的功能，二个是想加一些自定义的效果不好改。 我写的这个功能比较简单，可以换月，有预约效果，可以设定预约日期范围，压缩后1.4kb，先上个图，再慢慢解释： j &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5880116.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/think8848/p/5862469.html</id>
+        <title type="text">[原]CentOS7.2最小安装环境部署Asp.NET Core笔记 - think8848</title>
+        <summary type="text">转载请注明原作者(think8848)和出处(http://think8848.cnblogs.com) 写在前面的话 不知不觉在cnblogs上注册已经10多年了，看我的园龄就直接暴露了我实际年龄，很多时候看到时间概念时，我总觉得一阵惭愧...自12年开始，我都不知道在忙什么，反正是挺忙的，忙到经</summary>
+        <published>2016-09-18T00:43:00Z</published>
+        <updated>2016-09-18T00:43:00Z</updated>
+        <author>
+            <name>think8848</name>
+            <uri>http://www.cnblogs.com/think8848/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/think8848/p/5862469.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/think8848/p/5862469.html" />
+        <content type="html">【摘要】转载请注明原作者(think8848)和出处(http://think8848.cnblogs.com) 写在前面的话 不知不觉在cnblogs上注册已经10多年了，看我的园龄就直接暴露了我实际年龄，很多时候看到时间概念时，我总觉得一阵惭愧...自12年开始，我都不知道在忙什么，反正是挺忙的，忙到经 &lt;a href="http://www.cnblogs.com/think8848/p/5862469.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/best/p/5876559.html</id>
+        <title type="text">Java资源大全中文版（Awesome最新版） - 张果</title>
+        <summary type="text">Awesome系列的Java资源整理。awesome-java 就是akullpp发起维护的Java资源列表，内容包括：构建工具、数据库、框架、模板、安全、代码分析、日志、第三方库、书籍、Java 站点等等。 业务流程管理套件 流程驱动的软件系统构建，中间件。 jBPM：非常灵活的业务流程管理框架，</summary>
+        <published>2016-09-18T00:38:00Z</published>
+        <updated>2016-09-18T00:38:00Z</updated>
+        <author>
+            <name>张果</name>
+            <uri>http://www.cnblogs.com/best/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/best/p/5876559.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/best/p/5876559.html" />
+        <content type="html">【摘要】Awesome系列的Java资源整理。awesome-java 就是akullpp发起维护的Java资源列表，内容包括：构建工具、数据库、框架、模板、安全、代码分析、日志、第三方库、书籍、Java 站点等等。 业务流程管理套件 流程驱动的软件系统构建，中间件。 jBPM：非常灵活的业务流程管理框架， &lt;a href="http://www.cnblogs.com/best/p/5876559.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/miro/p/5880332.html</id>
+        <title type="text">BI之SSAS完整实战教程6 -- 设计维度、细化维度上：创建维度定义特性关系 - MiroYuan</title>
+        <summary type="text">前面我们使用过数据源向导、数据源视图向导、Cube向导来创建相应的对象。 本篇我们将学习使用维度向导来创建维度。 通过前面几个向导的学习，我们归纳一下共同点，主要分成两步 1. 使用某种对象类型的向导创建对象，完成主要结构搭建 2. 使用相应的设计器完成最终对象的修改和细化 有点像送快递，先通过大的</summary>
+        <published>2016-09-18T00:31:00Z</published>
+        <updated>2016-09-18T00:31:00Z</updated>
+        <author>
+            <name>MiroYuan</name>
+            <uri>http://www.cnblogs.com/miro/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/miro/p/5880332.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/miro/p/5880332.html" />
+        <content type="html">【摘要】前面我们使用过数据源向导、数据源视图向导、Cube向导来创建相应的对象。 本篇我们将学习使用维度向导来创建维度。 通过前面几个向导的学习，我们归纳一下共同点，主要分成两步 1. 使用某种对象类型的向导创建对象，完成主要结构搭建 2. 使用相应的设计器完成最终对象的修改和细化 有点像送快递，先通过大的 &lt;a href="http://www.cnblogs.com/miro/p/5880332.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/IlidanStormRage/p/5864983.html</id>
+        <title type="text">Unity3d UGUI 通用Confirm确认对话框实现（Inventory Pro学习总结） - 伊利丹·怒风</title>
+        <summary type="text">背景 曾几何时，在Winform中，使用MessageBox对话框是如此happy，后来还有人封装了可以选择各种图标和带隐藏详情的MessageBox，现在Unity3d UGui就没有了这样的好事情了，所有的UI都需要自己来搞定了，幸好还有各种插件，Inventory Pro中的对话框方案不失一种</summary>
+        <published>2016-09-18T00:31:00Z</published>
+        <updated>2016-09-18T00:31:00Z</updated>
+        <author>
+            <name>伊利丹&amp;#183;怒风</name>
+            <uri>http://www.cnblogs.com/IlidanStormRage/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/IlidanStormRage/p/5864983.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/IlidanStormRage/p/5864983.html" />
+        <content type="html">【摘要】背景 曾几何时，在Winform中，使用MessageBox对话框是如此happy，后来还有人封装了可以选择各种图标和带隐藏详情的MessageBox，现在Unity3d UGui就没有了这样的好事情了，所有的UI都需要自己来搞定了，幸好还有各种插件，Inventory Pro中的对话框方案不失一种 &lt;a href="http://www.cnblogs.com/IlidanStormRage/p/5864983.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/bitzhuwei/p/CSharpGL-31-opengl-rendering-pipeline.html</id>
+        <title type="text">CSharpGL(31)[译]OpenGL渲染管道那些事 - BIT祝威</title>
+        <summary type="text">本文通过阅读、翻译和扩展的方式，来逐步回顾总结一下OpenGL渲染管道，从而串联起OpenGL的所有知识点，并期望能在更高的层次上有所领悟。另外，原文涉及的链接，我也会视情况翻译一下，琢磨一下。为了方便对比，这里保留了英文。</summary>
+        <published>2016-09-17T16:06:00Z</published>
+        <updated>2016-09-17T16:06:00Z</updated>
+        <author>
+            <name>BIT祝威</name>
+            <uri>http://www.cnblogs.com/bitzhuwei/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/bitzhuwei/p/CSharpGL-31-opengl-rendering-pipeline.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/bitzhuwei/p/CSharpGL-31-opengl-rendering-pipeline.html" />
+        <content type="html">【摘要】本文通过阅读、翻译和扩展的方式，来逐步回顾总结一下OpenGL渲染管道，从而串联起OpenGL的所有知识点，并期望能在更高的层次上有所领悟。另外，原文涉及的链接，我也会视情况翻译一下，琢磨一下。为了方便对比，这里保留了英文。 &lt;a href="http://www.cnblogs.com/bitzhuwei/p/CSharpGL-31-opengl-rendering-pipeline.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/zsy/p/5880086.html</id>
+        <title type="text">Twproject Gantt开源甘特图功能扩展 - 迪克猪</title>
+        <summary type="text">1、Twproject Gantt甘特图介绍 Twproject Gantt 是一款基于 jQuery 开发的甘特图组件，也可以创建其它图表，例如任务树（Task Trees）。内置编辑、缩放和 CSS 皮肤等功能。更重要的是，它是免费开源的。 官网地址是：https://gantt.twproje...</summary>
+        <published>2016-09-17T15:28:00Z</published>
+        <updated>2016-09-17T15:28:00Z</updated>
+        <author>
+            <name>迪克猪</name>
+            <uri>http://www.cnblogs.com/zsy/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/zsy/p/5880086.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zsy/p/5880086.html" />
+        <content type="html">【摘要】1、Twproject Gantt甘特图介绍 Twproject Gantt 是一款基于 jQuery 开发的甘特图组件，也可以创建其它图表，例如任务树（Task Trees）。内置编辑、缩放和 CSS 皮肤等功能。更重要的是，它是免费开源的。 官网地址是：https://gantt.twproje... &lt;a href="http://www.cnblogs.com/zsy/p/5880086.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/archy_yu/p/5879973.html</id>
+        <title type="text">二线城市的我，和北京的同学比成长 - archy_yu</title>
+        <summary type="text">我和小A是大学同学，而且都是河北人，按道理讲，毕业之后去北京或者石家庄是最好的选择， 可是我还是阴差阳错的去了广州，小A去了北京。 2011年 毕业的时候，小A劝我去北京发展，并且劝说我跟他一起去做智能手机应用开发，扬言移动互联网将改变我们的生活。 我当时还是十分的沉迷于技术，并且沉迷于底层开发，所</summary>
+        <published>2016-09-17T14:43:00Z</published>
+        <updated>2016-09-17T14:43:00Z</updated>
+        <author>
+            <name>archy_yu</name>
+            <uri>http://www.cnblogs.com/archy_yu/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/archy_yu/p/5879973.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/archy_yu/p/5879973.html" />
+        <content type="html">【摘要】我和小A是大学同学，而且都是河北人，按道理讲，毕业之后去北京或者石家庄是最好的选择， 可是我还是阴差阳错的去了广州，小A去了北京。 2011年 毕业的时候，小A劝我去北京发展，并且劝说我跟他一起去做智能手机应用开发，扬言移动互联网将改变我们的生活。 我当时还是十分的沉迷于技术，并且沉迷于底层开发，所 &lt;a href="http://www.cnblogs.com/archy_yu/p/5879973.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/selene/p/5868160.html</id>
+        <title type="text">编写高质量代码:改善Java程序的151个建议(第4章:字符串___建议52~55) - 阿赫瓦里</title>
+        <summary type="text">建议52：推荐使用String直接量赋值 一般对象都是通过new关键字生成的，但是String还有第二种生成方式，也就是我们经常使用的直接声明方式，这种方式是极力推荐的，但不建议使用new String（"A"）的方式赋值。为什么呢？我们看如下代码： 注意看上面的程序，我们使用"=="判断的是两个对</summary>
+        <published>2016-09-17T14:33:00Z</published>
+        <updated>2016-09-17T14:33:00Z</updated>
+        <author>
+            <name>阿赫瓦里</name>
+            <uri>http://www.cnblogs.com/selene/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/selene/p/5868160.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/selene/p/5868160.html" />
+        <content type="html">【摘要】建议52：推荐使用String直接量赋值 一般对象都是通过new关键字生成的，但是String还有第二种生成方式，也就是我们经常使用的直接声明方式，这种方式是极力推荐的，但不建议使用new String（"A"）的方式赋值。为什么呢？我们看如下代码： 注意看上面的程序，我们使用"=="判断的是两个对 &lt;a href="http://www.cnblogs.com/selene/p/5868160.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+    <entry>
+        <id>http://www.cnblogs.com/dudu/p/5879913.html</id>
+        <title type="text">依赖注入的威力，.NET Core的魅力：解决MVC视图中的中文被html编码的问题 - dudu</title>
+        <summary type="text">有园友在博问中提了这样一个问题 —— .NET Core 中文等非英文文字html编码输出问题，到我们的 ASP.NET Core 项目中一看，也是同样的问题。解决这个问题需要从ASP.NET Core MVC中的HtmlHelper下手（上面代码中Html的类型就是HtmlHelper）</summary>
+        <published>2016-09-17T14:22:00Z</published>
+        <updated>2016-09-17T14:22:00Z</updated>
+        <author>
+            <name>dudu</name>
+            <uri>http://www.cnblogs.com/dudu/</uri>
+        </author>
+        <link rel="alternate" href="http://www.cnblogs.com/dudu/p/5879913.html" />
+        <link rel="alternate" type="text/html" href="http://www.cnblogs.com/dudu/p/5879913.html" />
+        <content type="html">【摘要】有园友在博问中提了这样一个问题 —— .NET Core 中文等非英文文字html编码输出问题，到我们的 ASP.NET Core 项目中一看，也是同样的问题。解决这个问题需要从ASP.NET Core MVC中的HtmlHelper下手（上面代码中Html的类型就是HtmlHelper） &lt;a href="http://www.cnblogs.com/dudu/p/5879913.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+    </entry>
+</feed>

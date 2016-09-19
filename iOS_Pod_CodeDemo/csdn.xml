@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0">
+    <channel>
+        <title>CSDN 极客头条()</title>
+        <link>http://geek.csdn.net</link>
+        <description>列表</description>
+        <lastBuildDate>Sun, 18 Sep 2016 17:40:47</lastBuildDate>
+        <item>
+            <title><![CDATA[OpenCV+Tesseract进行OCR学习（一）]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102134]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:41:31</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Wiki-Wiki-DokuWiki 再不上车就来不及了！]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102133]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:38:20</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[创万物互联引时代发展 物联网开发应用实践解读]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102132]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:33:56</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[利用阿里大于(大鱼)平台进行发送手机验证码]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102131]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:29:25</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Android之批量加载图片OOM问题解决方案]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102130]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:28:06</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2016 年最受欢迎的编程语言是什么？]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102129]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:27:59</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Java资源大全中文版（Awesome最新版）]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102128]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:26:51</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【原创】 [Cassandra教程]（十一） 深入NoSQL的数据删除]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102127]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:23:39</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[原码补码反码]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102126]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:22:20</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[基于Linux的WebSphere性能调优与故障诊断]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102125]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:20:52</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Android Studio中svn的使用（全部在这里）]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102124]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:20:16</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[javaWeb实现裁剪图片上传整套方案]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102122]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:19:40</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[优化移动体验的HTML5技巧]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102123]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:19:17</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【JavaWeb-6】HttpServletResponse的字符字节输出流、编码、文件下载、Captcha图片与HttpServletRequest获取request数据表单非表单数据、重定向与转发]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102121]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:18:58</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ElasticSearch优化系列五：机器设置（硬盘、CPU）]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102120]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:18:03</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“996”已成IT行业潜规则 无偿劳动没有加班费]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102119]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 17:02:10</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[代码检测HTML5/CSS3新特性的浏览器支持情况]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102118]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:54:58</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[你真正需要的代码测试覆盖率是多少？]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102117]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:49:10</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Android性能优化之UI渲染优化]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102116]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:45:05</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Android性能优化之UI渲染优化]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102115]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:44:02</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[深入浅出 Swift3]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102114]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:43:07</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[java io包说明]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102113]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:42:39</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[程序冰山]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102112]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:40:21</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Javascript使用HTML5 File Api进行文件读取]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102111]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:27:30</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CSS3滚动视差效果的制作技巧]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102110]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:27:21</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[MySQL EXPLAIN 命令详解学习]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102109]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:18:41</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[微软发布新的Visual C++代码优化器]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102108]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:15:11</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一周一讯 | 细数Android7.0 的新增安全功能、2016国家网络安全宣传周明日开幕]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102107]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:06:28</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[关于WebView当前地址问题的疑惑]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102106]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:05:38</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[android中WebView加载网页居中显示]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102104]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:03:15</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Android studio安装配置常见问题及其解决方案]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102105]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:02:52</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[我是如何自学Android，资料分享]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102103]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 16:01:21</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[算法系列（1）：Google方程式]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102102]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:59:23</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[C++ 及标准库中的那些大坑]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102101]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:58:09</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[在 PHP 7 中不要做的 10 件事]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102100]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:53:21</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[MySQL 实现树形的遍历]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102099]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:49:55</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[floating action button浮动按钮【展开/隐藏】使用]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102098]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:48:13</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[综合性代码质量保障工具Parasoft C/C++test 案例和示例分享]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102097]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:47:45</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[像调度程序那样安排任务，是什么样的体验？]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102096]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:42:44</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[让你成为深度学习工程师的一门课程]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102095]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:37:34</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[如何使用 HTML5 的picture元素处理响应式图片]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102094]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:36:30</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[深入浅出Netty read]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102093]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:36:16</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[解决用户注销后点击浏览器返回刷新页面重复登录的问题]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102092]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:33:11</pubDate> 
+        </item>
+        <item>
+            <title><![CDATA[云时代，程序员将面临的分化]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102091]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:32:30</pubDate> 
+        </item>
+        <item>
+            <title><![CDATA[HTTPS 工作原理和 TCP 握手机制]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102090]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:28:13</pubDate> 
+        </item>
+        <item>
+            <title><![CDATA[波音747之父传奇一生：造就空中皇后]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102089]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:27:12</pubDate> 
+        </item>
+        <item>
+            <title><![CDATA[微软小冰今满十八岁，解锁三大新技能]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102088]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:27:00</pubDate> 
+        </item>
+        <item>
+            <title><![CDATA[从走出校门到Java实习生生活]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102087]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:26:48</pubDate> 
+        </item>
+        <item>
+            <title><![CDATA[从大公司做.NET 开发跳槽后来到小公司的做.NET移动端微信开发的个人感慨]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102086]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:26:07</pubDate> 
+        </item>
+        <item>
+            <title><![CDATA[云时代，程序员将面临的分化]]></title>
+            <link><![CDATA[http://geek.csdn.net/news/detail/102085]]></link>
+            <author>链接</author>
+            <pubDate>Sun, 18 Sep 2016 15:25:51</pubDate> 
+        </item>
+				</channel>
+</rss> 

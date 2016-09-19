@@ -19,8 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    //可写可不写，系统默认会有cache
-    NSURLCache *urlCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
+    //可写可不写，系统默认会有cache,
+    NSURLCache *urlCache = [[NSURLCache alloc] initWithMemoryCapacity:CACHE_MEMORY_MAX diskCapacity:CACHE_DISK_MAX diskPath:nil];
     [NSURLCache setSharedURLCache:urlCache];
     
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

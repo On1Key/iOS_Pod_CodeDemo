@@ -35,7 +35,7 @@ static AFHTTPSessionManager *manager = nil;
  */
 + (id)GET:(NSString *)path parameters:(NSDictionary *)params complationHandle:(void (^)(id, NSError *))completed {
     
-    NSLog(@"Request Path: \n%@, params %@", path, params);
+    NSLog(@"GET Path: \n%@, params %@", path, params);
     return [[self defaultManager] GET:path parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (completed) {
             completed(responseObject,nil);
@@ -54,7 +54,7 @@ static AFHTTPSessionManager *manager = nil;
 + (id)POST:(NSString *)path parameters:(NSDictionary *)params complationHandle:(void (^)(id, NSError *))completed {
 
 
-    NSLog(@"Request Path: %@, \nparams %@", path, params);
+    NSLog(@"POST Path: %@, \nparams %@", path, params);
    return [[self defaultManager] POST:path parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
        if (completed) {
            completed(responseObject,nil);
@@ -62,6 +62,25 @@ static AFHTTPSessionManager *manager = nil;
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
         NSLog(@"POST ERROR: %@",error.userInfo);
+        if (completed) {
+            completed(nil,error);
+        }
+    }];
+}
+/**
+ * XML的GET方法
+ */
++ (id)XML_GET:(NSString *)path complationHandle:(void (^)(id, NSError *))completed{
+    AFHTTPSessionManager *manager = [self defaultManager];
+    manager.responseSerializer = [AFXMLParserResponseSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/atom+xml", nil];
+    NSLog(@"XML GET Path: %@, \nparams %@", path, nil);
+    return [manager GET:path parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        if (completed) {
+            completed(responseObject,nil);
+        }
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"XML GET ERROR: %@",error.userInfo);
         if (completed) {
             completed(nil,error);
         }

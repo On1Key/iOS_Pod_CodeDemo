@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4B0AD17A3F390A7E06756B54 /* Pods_iOS_Pod_CodeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DC870A990D5A72526D67A3 /* Pods_iOS_Pod_CodeDemo.framework */; };
+		FA110A211D8E66170066F174 /* cnblogs_rss.xml in Resources */ = {isa = PBXBuildFile; fileRef = FA110A201D8E66170066F174 /* cnblogs_rss.xml */; };
+		FA110A251D8E7F9E0066F174 /* XMLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA110A231D8E7F9E0066F174 /* XMLCell.m */; };
+		FA110A261D8E7F9E0066F174 /* XMLCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA110A241D8E7F9E0066F174 /* XMLCell.xib */; };
+		FA110A281D8E9C8A0066F174 /* csdn.xml in Resources */ = {isa = PBXBuildFile; fileRef = FA110A271D8E9C8A0066F174 /* csdn.xml */; };
 		FA234BA31D34EC6100A44E2F /* MJExtensionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA234BA21D34EC6100A44E2F /* MJExtensionController.m */; };
 		FA234BA91D34ED0E00A44E2F /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA234BA81D34ED0E00A44E2F /* BaseNetManager.m */; };
 		FA234BAD1D34EECB00A44E2F /* ServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA234BAC1D34EECB00A44E2F /* ServiceModel.m */; };
@@ -18,6 +22,8 @@
 		FA3603A51C8FCDFC001D124F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3603A41C8FCDFC001D124F /* Assets.xcassets */; };
 		FA3603A81C8FCDFC001D124F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3603A61C8FCDFC001D124F /* LaunchScreen.storyboard */; };
 		FA3603D11C900116001D124F /* customer.html in Resources */ = {isa = PBXBuildFile; fileRef = FA3603D01C900116001D124F /* customer.html */; };
+		FA7249BA1D8E413E00B7F478 /* XMLParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7249B91D8E413E00B7F478 /* XMLParseController.m */; };
+		FA7249BE1D8E45E600B7F478 /* XMLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7249BD1D8E45E600B7F478 /* XMLModel.m */; };
 		FAA3F2B51D376CD5007DF465 /* XibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3F2AB1D376CD5007DF465 /* XibViewController.m */; };
 		FAA3F2B61D376CD5007DF465 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA3F2AC1D376CD5007DF465 /* XibViewController.xib */; };
 		FAA3F2B71D376CD5007DF465 /* XibFrameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3F2AE1D376CD5007DF465 /* XibFrameCell.m */; };
@@ -31,6 +37,8 @@
 		FAA88B131D34D2070007ABDC /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA88B121D34D2070007ABDC /* PopViewController.m */; };
 		FAD45EE81D6D4BF0003B037B /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD45EE51D6D4BF0003B037B /* NSArray+Log.m */; };
 		FAD45EE91D6D4BF0003B037B /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD45EE71D6D4BF0003B037B /* NSDictionary+Log.m */; };
+		FAD45EEB1D6D786A003B037B /* MJExtenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD45EEA1D6D786A003B037B /* MJExtenView.xib */; };
+		FAD45EEE1D6D78BE003B037B /* MJExtenView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD45EED1D6D78BE003B037B /* MJExtenView.m */; };
 		FAE7EE171D35D67C0031E184 /* MBProHUDController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7EE161D35D67C0031E184 /* MBProHUDController.m */; };
 		FAE7EE191D35D8CA0031E184 /* MBProHUDController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE7EE181D35D8CA0031E184 /* MBProHUDController.storyboard */; };
 		FAE7EE1C1D35DCDE0031E184 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7EE1B1D35DCDE0031E184 /* BaseViewController.m */; };
@@ -53,6 +61,11 @@
 		26B1510A8FAC8A50BA2BEAAE /* Pods-iOS_Pod_CodeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Pod_CodeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Pod_CodeDemo/Pods-iOS_Pod_CodeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4491D4A16C69911DBF2AAC98 /* Pods-iOS_Pod_CodeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Pod_CodeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Pod_CodeDemo/Pods-iOS_Pod_CodeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		79DC870A990D5A72526D67A3 /* Pods_iOS_Pod_CodeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Pod_CodeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA110A201D8E66170066F174 /* cnblogs_rss.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cnblogs_rss.xml; sourceTree = "<group>"; };
+		FA110A221D8E7F9E0066F174 /* XMLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLCell.h; sourceTree = "<group>"; };
+		FA110A231D8E7F9E0066F174 /* XMLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLCell.m; sourceTree = "<group>"; };
+		FA110A241D8E7F9E0066F174 /* XMLCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMLCell.xib; sourceTree = "<group>"; };
+		FA110A271D8E9C8A0066F174 /* csdn.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = csdn.xml; sourceTree = "<group>"; };
 		FA234BA11D34EC6100A44E2F /* MJExtensionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionController.h; sourceTree = "<group>"; };
 		FA234BA21D34EC6100A44E2F /* MJExtensionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionController.m; sourceTree = "<group>"; };
 		FA234BA71D34ED0E00A44E2F /* BaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetManager.h; sourceTree = "<group>"; };
@@ -71,6 +84,10 @@
 		FA3603A91C8FCDFC001D124F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3603B31C8FEB1E001D124F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FA3603D01C900116001D124F /* customer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = customer.html; sourceTree = "<group>"; };
+		FA7249B81D8E413E00B7F478 /* XMLParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParseController.h; sourceTree = "<group>"; };
+		FA7249B91D8E413E00B7F478 /* XMLParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParseController.m; sourceTree = "<group>"; };
+		FA7249BC1D8E45E600B7F478 /* XMLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLModel.h; sourceTree = "<group>"; };
+		FA7249BD1D8E45E600B7F478 /* XMLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLModel.m; sourceTree = "<group>"; };
 		FAA3F2AA1D376CD5007DF465 /* XibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibViewController.h; sourceTree = "<group>"; };
 		FAA3F2AB1D376CD5007DF465 /* XibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibViewController.m; sourceTree = "<group>"; };
 		FAA3F2AC1D376CD5007DF465 /* XibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
@@ -94,6 +111,9 @@
 		FAD45EE51D6D4BF0003B037B /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		FAD45EE61D6D4BF0003B037B /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
 		FAD45EE71D6D4BF0003B037B /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		FAD45EEA1D6D786A003B037B /* MJExtenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJExtenView.xib; sourceTree = "<group>"; };
+		FAD45EEC1D6D78BE003B037B /* MJExtenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtenView.h; sourceTree = "<group>"; };
+		FAD45EED1D6D78BE003B037B /* MJExtenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtenView.m; sourceTree = "<group>"; };
 		FAE7EE151D35D67C0031E184 /* MBProHUDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProHUDController.h; sourceTree = "<group>"; };
 		FAE7EE161D35D67C0031E184 /* MBProHUDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProHUDController.m; sourceTree = "<group>"; };
 		FAE7EE181D35D8CA0031E184 /* MBProHUDController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MBProHUDController.storyboard; sourceTree = "<group>"; };
@@ -152,13 +172,6 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		FA234BA51D34ECD700A44E2F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
 		FA234BA61D34ECE300A44E2F /* Extent */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +186,9 @@
 			children = (
 				FA234BA11D34EC6100A44E2F /* MJExtensionController.h */,
 				FA234BA21D34EC6100A44E2F /* MJExtensionController.m */,
+				FAD45EEC1D6D78BE003B037B /* MJExtenView.h */,
+				FAD45EED1D6D78BE003B037B /* MJExtenView.m */,
+				FAD45EEA1D6D786A003B037B /* MJExtenView.xib */,
 				FA234BAB1D34EECB00A44E2F /* ServiceModel.h */,
 				FA234BAC1D34EECB00A44E2F /* ServiceModel.m */,
 			);
@@ -211,7 +227,6 @@
 				FAA88B141D34D8050007ABDC /* SubVCs */,
 				FA234BA41D34ECCB00A44E2F /* View */,
 				FA234BA61D34ECE300A44E2F /* Extent */,
-				FA234BA51D34ECD700A44E2F /* Model */,
 				FA3603D21C900119001D124F /* Resource */,
 				FA3603A11C8FCDFC001D124F /* Main.storyboard */,
 				FA3603A41C8FCDFC001D124F /* Assets.xcassets */,
@@ -237,6 +252,22 @@
 				FA3603D01C900116001D124F /* customer.html */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		FA7249BB1D8E45C900B7F478 /* XMLParse */ = {
+			isa = PBXGroup;
+			children = (
+				FA7249B81D8E413E00B7F478 /* XMLParseController.h */,
+				FA7249B91D8E413E00B7F478 /* XMLParseController.m */,
+				FA110A221D8E7F9E0066F174 /* XMLCell.h */,
+				FA110A231D8E7F9E0066F174 /* XMLCell.m */,
+				FA110A241D8E7F9E0066F174 /* XMLCell.xib */,
+				FA110A271D8E9C8A0066F174 /* csdn.xml */,
+				FA110A201D8E66170066F174 /* cnblogs_rss.xml */,
+				FA7249BC1D8E45E600B7F478 /* XMLModel.h */,
+				FA7249BD1D8E45E600B7F478 /* XMLModel.m */,
+			);
+			name = XMLParse;
 			sourceTree = "<group>";
 		};
 		FAA3F2A91D376CAD007DF465 /* Xib_FDTCellVC */ = {
@@ -269,6 +300,7 @@
 				FAE7EE151D35D67C0031E184 /* MBProHUDController.h */,
 				FAE7EE161D35D67C0031E184 /* MBProHUDController.m */,
 				FAE7EE181D35D8CA0031E184 /* MBProHUDController.storyboard */,
+				FA7249BB1D8E45C900B7F478 /* XMLParse */,
 				FAA3F2A91D376CAD007DF465 /* Xib_FDTCellVC */,
 				FA234BAA1D34EEA200A44E2F /* MJEx */,
 			);
@@ -368,6 +400,7 @@
 			files = (
 				FAE7EE391D35E7520031E184 /* box7.tiff in Resources */,
 				FAE7EE3A1D35E7520031E184 /* box8.tiff in Resources */,
+				FAD45EEB1D6D786A003B037B /* MJExtenView.xib in Resources */,
 				FAE7EE3B1D35E7520031E184 /* box9.tiff in Resources */,
 				FAE7EE3E1D35E7520031E184 /* box12.tiff in Resources */,
 				FAE7EE3D1D35E7520031E184 /* box11.tiff in Resources */,
@@ -381,12 +414,15 @@
 				FA3603D11C900116001D124F /* customer.html in Resources */,
 				FAE7EE371D35E7520031E184 /* box5.tiff in Resources */,
 				FAE7EE331D35E7520031E184 /* box1.tiff in Resources */,
+				FA110A281D8E9C8A0066F174 /* csdn.xml in Resources */,
 				FAE7EE351D35E7520031E184 /* box3.tiff in Resources */,
 				FAE7EE381D35E7520031E184 /* box6.tiff in Resources */,
 				FAE7EE3C1D35E7520031E184 /* box10.tiff in Resources */,
 				FA3603A31C8FCDFC001D124F /* Main.storyboard in Resources */,
 				FAA3F2B61D376CD5007DF465 /* XibViewController.xib in Resources */,
+				FA110A261D8E7F9E0066F174 /* XMLCell.xib in Resources */,
 				FAA3F2B81D376CD5007DF465 /* XibFrameCell.xib in Resources */,
+				FA110A211D8E66170066F174 /* cnblogs_rss.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,11 +494,15 @@
 				FAA88B0D1D34CFE70007ABDC /* MainTableController.m in Sources */,
 				FAA3F2B51D376CD5007DF465 /* XibViewController.m in Sources */,
 				FA36039D1C8FCDFC001D124F /* AppDelegate.m in Sources */,
+				FA110A251D8E7F9E0066F174 /* XMLCell.m in Sources */,
+				FAD45EEE1D6D78BE003B037B /* MJExtenView.m in Sources */,
+				FA7249BE1D8E45E600B7F478 /* XMLModel.m in Sources */,
 				FAD45EE91D6D4BF0003B037B /* NSDictionary+Log.m in Sources */,
 				FAA3F2B71D376CD5007DF465 /* XibFrameCell.m in Sources */,
 				FA36039A1C8FCDFC001D124F /* main.m in Sources */,
 				FAA3F2BE1D376D24007DF465 /* UIView+Extension.m in Sources */,
 				FA234BAD1D34EECB00A44E2F /* ServiceModel.m in Sources */,
+				FA7249BA1D8E413E00B7F478 /* XMLParseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

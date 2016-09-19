@@ -29,6 +29,7 @@
                   @"POP",
                   @"Masonry",
                   @"MJExtension+NSURLCache",
+                  @"XMLParse",
                   @"MBProHUD",
                   @"Xib_FDTLayCell"];
     }
@@ -39,7 +40,8 @@
         _codeVCS = @[@"GRMustacheController",
                      @"PopViewController",
                      @"ViewController",
-                     @"MJExtensionController"];
+                     @"MJExtensionController",
+                     @"XMLParseController"];
     }
     return _codeVCS;
 }

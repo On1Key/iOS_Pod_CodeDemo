@@ -12,6 +12,8 @@
 
 /** get */
 + (id)GET:(NSString *)path parameters:(NSDictionary *)params complationHandle:(void(^)(id responseObject, NSError *error))completed;
+/** XML的GET方法 */
++ (id)XML_GET:(NSString *)path complationHandle:(void (^)(id, NSError *))completed;
 /** post */
 + (id)POST:(NSString *)path parameters:(NSDictionary *)params complationHandle:(void(^)(id responseObject, NSError *error))completed;
 @end

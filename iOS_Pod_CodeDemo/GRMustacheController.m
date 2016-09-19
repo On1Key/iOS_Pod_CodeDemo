@@ -18,7 +18,9 @@
     [super viewDidLoad];
     //测试GRMustache框架，使用字典改变html文件的内容
     [self testOf_GRMustache_changeWebViewTextByTitle:@"title名称" info:@"文本内容"];
+    
 }
+
 #pragma mark - GRMustache框架，html修改
 /**
  *  ------------------------------------------------------------------
