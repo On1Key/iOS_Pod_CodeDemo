@@ -11,5 +11,7 @@ pod 'MJRefresh', '~> 3.1.0'
 pod 'MJExtension', '~> 3.0.10'
 pod 'MBProgressHUD', '~> 0.9.2'
 pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
+#pod 'Snap', '~> 0.9.2'
+pod 'SnapKit', '~> 0.30.0.beta1'
 
 end

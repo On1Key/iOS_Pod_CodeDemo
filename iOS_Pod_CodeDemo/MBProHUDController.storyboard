@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--ProHUD Controller-->
@@ -15,51 +16,51 @@
                         <viewControllerLayoutGuide type="bottom" id="nAe-4n-r7Y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WBr-Ei-9fz">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-uk-rkJ">
-                                <rect key="frame" x="204" y="131" width="193" height="39"/>
-                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <frame key="frameInset" minX="91" minY="127" width="193" height="39"/>
+                                <color key="backgroundColor" red="0.89009666442871094" green="0.89009666442871094" blue="0.89009666442871094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="文本提示框"/>
                                 <connections>
                                     <action selector="showTextDialog:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="HUO-lJ-tIv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aK1-bv-deQ">
-                                <rect key="frame" x="204" y="192" width="193" height="39"/>
-                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <frame key="frameInset" minX="91" minY="188" width="193" height="39"/>
+                                <color key="backgroundColor" red="0.89009666442871094" green="0.89009666442871094" blue="0.89009666442871094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="进度提示框1"/>
                                 <connections>
                                     <action selector="showProgressDialog:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="JEm-l5-dQM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Prf-gp-sMi">
-                                <rect key="frame" x="204" y="324" width="193" height="39"/>
-                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <frame key="frameInset" minX="91" minY="320" width="193" height="39"/>
+                                <color key="backgroundColor" red="0.89009666442871094" green="0.89009666442871094" blue="0.89009666442871094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="自定义提示框"/>
                                 <connections>
                                     <action selector="showCustomDialog:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="uhX-q6-yUD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sv-9N-tXw">
-                                <rect key="frame" x="204" y="390" width="193" height="39"/>
-                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <frame key="frameInset" minX="91" minY="386" width="193" height="39"/>
+                                <color key="backgroundColor" red="0.89009666442871094" green="0.89009666442871094" blue="0.89009666442871094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="纯文本提示框"/>
                                 <connections>
                                     <action selector="showAllTextDialog:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="xjV-Qy-psj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9e-HO-hjb">
-                                <rect key="frame" x="204" y="255" width="193" height="39"/>
-                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <frame key="frameInset" minX="91" minY="251" width="193" height="39"/>
+                                <color key="backgroundColor" red="0.89009666442871094" green="0.89009666442871094" blue="0.89009666442871094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="进度提示框2"/>
                                 <connections>
                                     <action selector="showProgressDialog2:" destination="dZP-PM-Vzg" eventType="touchUpInside" id="fKA-EV-NX9"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="b9e-HO-hjb" firstAttribute="top" secondItem="aK1-bv-deQ" secondAttribute="bottom" constant="20" id="Cxm-MV-8Oe"/>
                             <constraint firstItem="aK1-bv-deQ" firstAttribute="leading" secondItem="WBr-Ei-9fz" secondAttribute="leadingMargin" constant="100" id="Dqi-iN-qYE"/>
@@ -79,28 +80,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" prompt="" id="QNB-Sn-G0A"/>
+                    <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lvz-ld-I6l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1070" y="310"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="OpG-1f-yrr">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sjx-f6-oxc" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Jk-J2-Ogc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="dZP-PM-Vzg" kind="relationship" relationship="rootViewController" id="n7g-Fu-e1A"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="esI-YB-4bu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="259" y="311"/>
+            <point key="canvasLocation" x="1985" y="313"/>
         </scene>
     </scenes>
 </document>

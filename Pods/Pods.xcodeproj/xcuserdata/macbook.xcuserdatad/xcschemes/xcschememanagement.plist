@@ -49,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -77,17 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4B985F1CC59F414F560075D65751594A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>51D20FEE1E2D38700470BDB5A7D17E83</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>523EF3D0B632F47257C96F70904C2ED4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -107,12 +102,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>B902EC9B9C89A32D4B1706751E62A686</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5C63A308ADC7A17B69DFCE946445E44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCFAA08B8CE092EB2D9AB0EB63EDF13C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E61CE3B6DFA1FE6B3E296965C76C0E10</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F317BF40DA1AB376E35F46DA064B45A1</key>
+		<key>EE162737A9804E24F9792550928E8300</key>
 		<dict>
 			<key>primary</key>
 			<true/>

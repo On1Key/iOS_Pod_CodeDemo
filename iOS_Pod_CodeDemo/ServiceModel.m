@@ -20,7 +20,7 @@
     NSDictionary *res = object;
     NSArray *arr = res[@"data"][@"caregiver"];
     NSArray *models = [ServiceModel mj_objectArrayWithKeyValuesArray:arr];
-    ServiceModel *mo = models[0];
+//    ServiceModel *mo = models[0];
 //    NSMutableArray *models = [NSMutableArray array];
 //    for (NSDictionary *dict in arr) {
 //        ServiceModel *model = [ServiceModel mj_objectWithKeyValues:dict];

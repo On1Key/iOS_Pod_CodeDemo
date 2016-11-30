@@ -22,6 +22,7 @@
 		FA3603A51C8FCDFC001D124F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3603A41C8FCDFC001D124F /* Assets.xcassets */; };
 		FA3603A81C8FCDFC001D124F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3603A61C8FCDFC001D124F /* LaunchScreen.storyboard */; };
 		FA3603D11C900116001D124F /* customer.html in Resources */ = {isa = PBXBuildFile; fileRef = FA3603D01C900116001D124F /* customer.html */; };
+		FA6F43001D9267E800795D3C /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F42FF1D9267E800795D3C /* RedView.swift */; };
 		FA7249BA1D8E413E00B7F478 /* XMLParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7249B91D8E413E00B7F478 /* XMLParseController.m */; };
 		FA7249BE1D8E45E600B7F478 /* XMLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7249BD1D8E45E600B7F478 /* XMLModel.m */; };
 		FAA3F2B51D376CD5007DF465 /* XibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3F2AB1D376CD5007DF465 /* XibViewController.m */; };
@@ -84,6 +85,8 @@
 		FA3603A91C8FCDFC001D124F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3603B31C8FEB1E001D124F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FA3603D01C900116001D124F /* customer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = customer.html; sourceTree = "<group>"; };
+		FA6F42FE1D9267E700795D3C /* iOS_Pod_CodeDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Pod_CodeDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA6F42FF1D9267E800795D3C /* RedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
 		FA7249B81D8E413E00B7F478 /* XMLParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParseController.h; sourceTree = "<group>"; };
 		FA7249B91D8E413E00B7F478 /* XMLParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParseController.m; sourceTree = "<group>"; };
 		FA7249BC1D8E45E600B7F478 /* XMLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLModel.h; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		FAA88B0F1D34D0DB0007ABDC /* GRMustacheController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMustacheController.m; sourceTree = "<group>"; };
 		FAA88B111D34D2070007ABDC /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
 		FAA88B121D34D2070007ABDC /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		FAB43BF01DE29E1B00AB9310 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FAD45EE41D6D4BF0003B037B /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		FAD45EE51D6D4BF0003B037B /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		FAD45EE61D6D4BF0003B037B /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 		B53F194532EDAF9ABFC5BD08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAB43BF01DE29E1B00AB9310 /* CoreData.framework */,
 				79DC870A990D5A72526D67A3 /* Pods_iOS_Pod_CodeDemo.framework */,
 			);
 			name = Frameworks;
@@ -219,14 +224,16 @@
 				FA36039B1C8FCDFC001D124F /* AppDelegate.h */,
 				FA36039C1C8FCDFC001D124F /* AppDelegate.m */,
 				FA3603B31C8FEB1E001D124F /* PrefixHeader.pch */,
+				FA234BA61D34ECE300A44E2F /* Extent */,
+				FAD45EE31D6D4BE7003B037B /* Category */,
 				FAA88B0B1D34CFE70007ABDC /* MainTableController.h */,
 				FAA88B0C1D34CFE70007ABDC /* MainTableController.m */,
+				FA6F42FF1D9267E800795D3C /* RedView.swift */,
+				FA6F42FE1D9267E700795D3C /* iOS_Pod_CodeDemo-Bridging-Header.h */,
 				FAE7EE1A1D35DCDE0031E184 /* BaseViewController.h */,
 				FAE7EE1B1D35DCDE0031E184 /* BaseViewController.m */,
-				FAD45EE31D6D4BE7003B037B /* Category */,
 				FAA88B141D34D8050007ABDC /* SubVCs */,
 				FA234BA41D34ECCB00A44E2F /* View */,
-				FA234BA61D34ECE300A44E2F /* Extent */,
 				FA3603D21C900119001D124F /* Resource */,
 				FA3603A11C8FCDFC001D124F /* Main.storyboard */,
 				FA3603A41C8FCDFC001D124F /* Assets.xcassets */,
@@ -372,6 +379,8 @@
 				TargetAttributes = {
 					FA3603941C8FCDFC001D124F = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = LGTKM77CP2;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -489,6 +498,7 @@
 				FAE7EE171D35D67C0031E184 /* MBProHUDController.m in Sources */,
 				FAA88B131D34D2070007ABDC /* PopViewController.m in Sources */,
 				FA3603A01C8FCDFC001D124F /* ViewController.m in Sources */,
+				FA6F43001D9267E800795D3C /* RedView.swift in Sources */,
 				FAA88B101D34D0DB0007ABDC /* GRMustacheController.m in Sources */,
 				FAA3F2B91D376CD5007DF465 /* XibCell.m in Sources */,
 				FAA88B0D1D34CFE70007ABDC /* MainTableController.m in Sources */,
@@ -615,12 +625,17 @@
 			baseConfigurationReference = 4491D4A16C69911DBF2AAC98 /* Pods-iOS_Pod_CodeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LGTKM77CP2;
 				GCC_PREFIX_HEADER = iOS_Pod_CodeDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS_Pod_CodeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yang.iOS-Pod-CodeDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Pod_CodeDemo/iOS_Pod_CodeDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -629,12 +644,16 @@
 			baseConfigurationReference = 26B1510A8FAC8A50BA2BEAAE /* Pods-iOS_Pod_CodeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LGTKM77CP2;
 				GCC_PREFIX_HEADER = iOS_Pod_CodeDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS_Pod_CodeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yang.iOS-Pod-CodeDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Pod_CodeDemo/iOS_Pod_CodeDemo-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

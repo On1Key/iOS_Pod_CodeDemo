@@ -74,6 +74,10 @@
     
 //    MJRefreshBackStateFooter *footer = [MJRefreshBackStateFooter footerWithRefreshingTarget:self refreshingAction:@selector(addNewNurseList)];
 //    self.tableView.mj_footer = footer;
+    
+    [BaseNetManager GET:@"http://localhost/basic/json/data.php" parameters:nil complationHandle:^(id responseObject, NSError *error) {
+        NSLog(@"\n------------------%d------------------\n%s\nres==%@\nerror==%@",__LINE__,__func__,responseObject,error);
+    }];
 }
 
 #pragma mark - Table view data source

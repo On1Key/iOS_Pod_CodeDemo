@@ -7,6 +7,8 @@
 //
 
 #import "GRMustacheController.h"
+//#import "RedView.swift"
+//#import "RedView.h"
 
 @interface GRMustacheController ()<UIWebViewDelegate>
 
@@ -18,6 +20,11 @@
     [super viewDidLoad];
     //测试GRMustache框架，使用字典改变html文件的内容
     [self testOf_GRMustache_changeWebViewTextByTitle:@"title名称" info:@"文本内容"];
+    
+    RedView *redView = [[RedView alloc] init];
+    redView.frame = CGRectMake(70, 400, 200, 100);
+    [self.view addSubview:redView];
+    
     
 }
 
