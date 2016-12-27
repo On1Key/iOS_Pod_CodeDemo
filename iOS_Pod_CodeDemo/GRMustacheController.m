@@ -9,9 +9,11 @@
 #import "GRMustacheController.h"
 //#import "RedView.swift"
 //#import "RedView.h"
+//#import "JPEngine.h"
 
 @interface GRMustacheController ()<UIWebViewDelegate>
-
+/**<#注释#>*/
+@property (nonatomic, strong) RedView *redView;
 @end
 
 @implementation GRMustacheController
@@ -24,10 +26,11 @@
     RedView *redView = [[RedView alloc] init];
     redView.frame = CGRectMake(70, 400, 200, 100);
     [self.view addSubview:redView];
-    
+    _redView = redView;
+}
+- (void)viewDidLayoutSubviews{
     
 }
-
 #pragma mark - GRMustache框架，html修改
 /**
  *  ------------------------------------------------------------------

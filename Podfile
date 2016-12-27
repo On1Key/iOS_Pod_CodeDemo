@@ -13,5 +13,6 @@ pod 'MBProgressHUD', '~> 0.9.2'
 pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
 #pod 'Snap', '~> 0.9.2'
 pod 'SnapKit', '~> 0.30.0.beta1'
+pod 'JSPatch', '~> 1.0'
 
 end

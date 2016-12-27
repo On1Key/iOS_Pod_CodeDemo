@@ -36,6 +36,7 @@
 		FAA88B0D1D34CFE70007ABDC /* MainTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA88B0C1D34CFE70007ABDC /* MainTableController.m */; };
 		FAA88B101D34D0DB0007ABDC /* GRMustacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA88B0F1D34D0DB0007ABDC /* GRMustacheController.m */; };
 		FAA88B131D34D2070007ABDC /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA88B121D34D2070007ABDC /* PopViewController.m */; };
+		FAC98A211E0CBFFD002860FD /* bugfix.js in Resources */ = {isa = PBXBuildFile; fileRef = FAC98A201E0CBFFD002860FD /* bugfix.js */; };
 		FAD45EE81D6D4BF0003B037B /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD45EE51D6D4BF0003B037B /* NSArray+Log.m */; };
 		FAD45EE91D6D4BF0003B037B /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD45EE71D6D4BF0003B037B /* NSDictionary+Log.m */; };
 		FAD45EEB1D6D786A003B037B /* MJExtenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD45EEA1D6D786A003B037B /* MJExtenView.xib */; };
@@ -111,6 +112,7 @@
 		FAA88B111D34D2070007ABDC /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
 		FAA88B121D34D2070007ABDC /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
 		FAB43BF01DE29E1B00AB9310 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAC98A201E0CBFFD002860FD /* bugfix.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bugfix.js; sourceTree = "<group>"; };
 		FAD45EE41D6D4BF0003B037B /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		FAD45EE51D6D4BF0003B037B /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		FAD45EE61D6D4BF0003B037B /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 			children = (
 				FAE7EE251D35E7460031E184 /* box */,
 				FA3603D01C900116001D124F /* customer.html */,
+				FAC98A201E0CBFFD002860FD /* bugfix.js */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				FAE7EE371D35E7520031E184 /* box5.tiff in Resources */,
 				FAE7EE331D35E7520031E184 /* box1.tiff in Resources */,
 				FA110A281D8E9C8A0066F174 /* csdn.xml in Resources */,
+				FAC98A211E0CBFFD002860FD /* bugfix.js in Resources */,
 				FAE7EE351D35E7520031E184 /* box3.tiff in Resources */,
 				FAE7EE381D35E7520031E184 /* box6.tiff in Resources */,
 				FAE7EE3C1D35E7520031E184 /* box10.tiff in Resources */,

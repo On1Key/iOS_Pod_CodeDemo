@@ -21,6 +21,8 @@
 #import "MJExtension.h"
 #import "MBProgressHUD.h"
 #import "UITableView+FDTemplateLayoutCell.h"
+//hot fix
+#import "JPEngine.h"
 
 
 #import "iOS_Pod_CodeDemo-swift.h"

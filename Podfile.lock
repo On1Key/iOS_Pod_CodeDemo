@@ -20,6 +20,9 @@ PODS:
   - GRMustache (7.3.2):
     - JRSwizzle (~> 1.0)
   - JRSwizzle (1.0)
+  - JSPatch (1.0):
+    - JSPatch/Core (= 1.0)
+  - JSPatch/Core (1.0)
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
   - MJExtension (3.0.10)
@@ -32,6 +35,7 @@ DEPENDENCIES:
   - AFNetworking (~> 3.0.4)
   - FMDB (~> 2.6)
   - GRMustache (~> 7.3.2)
+  - JSPatch (~> 1.0)
   - Masonry (~> 0.6.4)
   - MBProgressHUD (~> 0.9.2)
   - MJExtension (~> 3.0.10)
@@ -45,6 +49,7 @@ SPEC CHECKSUMS:
   FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
   GRMustache: ebe6104fd30a6d22c1f36af131e19e2dbf7cd292
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  JSPatch: c689ea4dde17441f2f4a95d40dfedb8900c20099
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
@@ -53,6 +58,6 @@ SPEC CHECKSUMS:
   SnapKit: 732e8cad7910a1cb812c5c1fb58f231d7a3b49e8
   UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
 
-PODFILE CHECKSUM: 5a1cf9a5d233006521712aff13240274fce413e8
+PODFILE CHECKSUM: 10c5c9934fbff37ba9a44c8bd5a72ea06cb67820
 
 COCOAPODS: 1.0.0

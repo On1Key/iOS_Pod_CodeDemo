@@ -19,6 +19,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    //hot fix修改bug
+    [JPEngine startEngine];
+    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"bugfix" ofType:@"js"];
+    NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
+    [JPEngine evaluateScript:script];
+    
+//    [JPEngine startEngine];
+//    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://cnbang.net/bugfix.JS"]] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+//        NSString *script = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+//        if (script) {
+//            [JPEngine evaluateScript:script];
+//        }
+//    }];
+    
     //可写可不写，系统默认会有cache,
     NSURLCache *urlCache = [[NSURLCache alloc] initWithMemoryCapacity:CACHE_MEMORY_MAX diskCapacity:CACHE_DISK_MAX diskPath:nil];
     [NSURLCache setSharedURLCache:urlCache];

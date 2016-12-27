@@ -97,6 +97,7 @@
     
     [web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:model.idUrl]]];
     [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 
